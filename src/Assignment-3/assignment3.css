@@ -5,3 +5,45 @@
 width: 100%;
 height: 100%;
 }
+.section {
+    height: 50%;
+    width: 100%;
+    background-color: #F2F2F2;       
+}
+.upper-column {
+    display: inline-block;
+}
+.upper-column-leftside {
+    text-align:left;
+    width:40%;
+    margin: 60px;
+    font-size: 20px;
+}
+.upper-column-rightside {
+    /*float:right;*/
+    width: 40%;
+    vertical-align: middle;
+}
+#render-wiki {
+    margin-bottom: 40px;
+}
+.click-button {
+    height: 40px;
+    width: 180px;
+    background-color: black;
+    color: white;
+}
+.bottom-section {
+    text-align: center;
+    display: block;
+}
+.bottom-column {
+    margin: 20px 400px;
+}
+/*
+.bottom-iframe {
+    height: ;
+}*/
+#render-dictionary {
+    height: 300px;
+}
